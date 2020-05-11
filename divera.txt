@@ -1,0 +1,13 @@
+GET https://www.divera247.com/api/pull?ts=1587202941
+
+ts is timestamp in seconds `new Date().getTime() / 1000`
+
+{"success":true,"data":{"ts":1587203104,"ucr_active":139257,"alarm":{"items":{"2436057":{"id":2436057,"author_id":0,"cluster_id":7491,"alarmcode_id":0,"message_channel_id":0,"foreign_id":"","title":"Probealarm","text":"Probealarm automatischer Probealarm KEIN EINSATZ","report":"","address":"Langensteinbach","lat":0,"lng":0,"priority":false,"date":1587203102,"new":true,"editable":false,"answerable":true,"notification_type":2,"vehicle":[],"group":[],"cluster":[],"user_cluster_relation":[],"hidden":false,"deleted":false,"message_channel":false,"custom_answers":false,"attachment_count":0,"closed":false,"duration":"","ts_response":0,"response_time":0,"ucr_addressed":[],"ucr_answered":{},"ucr_answeredcount":{},"ucr_read":[],"ucr_self_addressed":true,"count_recipients":42,"count_read":0,"private_mode":false,"ts_publish":0,"ucr_self_status_id":0,"ucr_self_note":"","long":0,"type":"Probealarm"}},"sorting":[2436057,2404112,2374902,2374812,2372288,2340352,2308390],"ts":1587203104,"new":0}}}
+
+
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImp0aSI6ImFhN2MwMWQ0LWY4OGUtNGFhOC1iYmM1LTJkNzk2ZjY4NTU2OSJ9
+eyJpc3MiOiJodHRwczpcL1wvd3d3LmRpdmVyYTI0Ny5jb20iLCJhdWQiOiJodHRwczpcL1wvd3d3LmRpdmVyYTI0Ny5jb20iLCJqdGkiOiJhYTdjMDFkNC1mODhlLTRhYTgtYmJjNS0yZDc5NmY2ODU1NjkiLCJpYXQiOjE1ODcyMDQ3ODMsImV4cCI6MTU4NzgwOTU4MywidWNyIjoxMzkyNTcsInVjcl9pZCI6MTM5MjU3LCJhbGxvd2VkX3VjciI6WzEzOTI1N10sImFsbG93ZWRfY2x1c3RlciI6W10sInVzZXIiOjEzNjQzNiwidXNlcl9pZCI6MTM2NDM2LCJ1c2VyZ3JvdXBfaWQiOjQsImNsdXN0ZXJfaWQiOjc0OTEsInJtYiI6dHJ1ZSwiY2xpZW50IjpmYWxzZX0
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiIsImp0aSI6ImFhN2MwMWQ0LWY4OGUtNGFhOC1iYmM1LTJkNzk2ZjY4NTU2OSJ9
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `de.kordondev.attendee.core.model.User` (no Creators, like default construct, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 2, column: 5]
